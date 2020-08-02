@@ -6,3 +6,6 @@ services:
 before_install:
   - docker pull mysql/mysql-server:latest
   - docker run --name=mysql1 --restart on-failure -d mysql/mysql-server:latest
+
+script:
+  -  python pytest  && flake8
