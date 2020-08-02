@@ -6,4 +6,3 @@ services:
 before_install:
   - docker pull mysql/mysql-server:latest
   - docker run --name=mysql1 --restart on-failure -d mysql/mysql-server:latest
-  - docker exec -it mysql1 mysql -uroot -p
