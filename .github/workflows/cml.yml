@@ -15,5 +15,5 @@ jobs:
           pip install -r requirements.txt
 
           # Write your CML report
-          cat results.txt >> report.md
-          cml-send-comment report.md
+        #   cat results.txt >> report.md
+        #   cml-send-comment report.md
