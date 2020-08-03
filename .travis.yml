@@ -10,4 +10,4 @@ before_install:
 script:
   -   pytest -q tests/test_notebooks.py 
   -   pytest --cov tests
-  -   coverage run tests.py
+  -   coverage run tests/test_notebooks.py
