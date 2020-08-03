@@ -8,7 +8,7 @@ From python:3.8-alpine
 # All scripts in docker-entrypoint-initdb.d/ are automatically
 # executed during container startup
 
-COPY data_cleaning.ipynb /notebooks/data_cleaning.ipynb
+COPY notebooks /notebooks/data_cleaning.ipynb
 
 ENV MYSQL_ROOT_PASSWORD 123 
 ENV MYSQL_DATABASE twitter
