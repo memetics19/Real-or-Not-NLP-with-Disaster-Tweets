@@ -17,6 +17,3 @@ ENV MYSQL_PASSWORD 1234
 
 EXPOSE 3306
 
-RUN conda install --quiet --yes \
-   'mysqlclient'
-   
