@@ -43,7 +43,7 @@ import os
 # In[8]:
 
 
-df = pd.read_csv("C://Users//Lenovo//Downloads//Heroku//data//train.csv")
+df = pd.read_csv("data/train.csv")
 
 
 # In[9]:
