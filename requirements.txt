@@ -3,3 +3,4 @@ kaggle
 voila
 flake8
 pytest
+pytest-cov

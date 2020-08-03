@@ -8,4 +8,4 @@ before_install:
   - docker run --name=mysql1 --restart on-failure -d mysql/mysql-server:latest
 
 script:
-  -  unittest tests/test_notebooks.py 
+  -   pytest -q tests/test_notebooks.py 
