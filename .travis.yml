@@ -9,3 +9,4 @@ before_install:
 
 script:
   -   pytest -q tests/test_notebooks.py 
+  -   pytest --cov tests
