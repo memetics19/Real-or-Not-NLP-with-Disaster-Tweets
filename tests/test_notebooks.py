@@ -1,14 +1,12 @@
-"""Author: Shreeda Bhat"""
+"""Test for contradiction of the actual test """
 
-""" This test is to check the notebook and pass the travis ci"""
-
+import pandas as pd 
 import pytest
+import notebooks.data_cleaning
+
+def test_df_add():
+    new_df =pd.read_csv("./data/train.csv")
+    assert new_df is not None
 
 
-def f():
-    raise SystemExit(1)
 
-
-def test_mytest():
-    with pytest.raises(SystemExit):
-        f()
